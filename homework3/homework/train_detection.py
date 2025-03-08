@@ -40,8 +40,8 @@ def train(
     model.train()
 
     # Use an absolute path for the dataset
-    train_data_path = "/Users/rishald/Documents/DeepLearning/HomeWork/dl-hw/homework3/drive_data/train"
-    val_data_path = "/Users/rishald/Documents/DeepLearning/HomeWork/dl-hw/homework3/drive_data/val"
+    train_data_path = "drive_data/train"
+    val_data_path = "drive_data/val"
 
     # Print the paths to verify
     print(f"Train data path: {train_data_path}")
